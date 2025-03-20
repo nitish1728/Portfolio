@@ -1,0 +1,20 @@
+.main{
+    background-color: #6A89A7;
+    color: white;
+    min-height: 110vh;
+}
+.About{
+    background-color: #384959;
+    color: white;
+    min-height:100vh;
+    padding-bottom: 50px;
+}
+
+.Experience{
+    background-color: color-mix(in srgb,#5aa6f2,#384959);
+    color:white;
+    min-height: 100vh;
+}
+
+/* 78b5f3 */
+

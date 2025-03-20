@@ -1,0 +1,135 @@
+.about-main{
+    padding-top: 70px;
+    min-height: 100vh;
+}
+.about-main .about-check{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.about-main .about-check .about-image{
+    align-items: start;
+}
+.about-main .about-check .about-image img{
+    width:400px;
+    height:400px;
+}
+
+.about-main .about-check .about-description{
+    width:50%;
+    height:400px;
+    overflow-y:auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    align-content: center;
+}   
+.about-main .about-check .about-description h1{
+    font-size: 50px;
+    color: #BDDDFC;
+}
+
+.about-main .about-technology{
+    display:block;
+    text-align: center;
+    width:90%;
+    margin:100px auto 0px auto;
+
+}
+.about-main .about-technology h1{
+    font-size: 50px;
+    color: #BDDDFC;
+    
+}
+.about-main .about-check .about-description h3{
+    margin-top: 40px;
+    font-size: 20px ;
+    line-height: 1.8;
+}
+
+
+.about-main .about-technology .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.about-main .about-technology svg,img{
+    width:50px;
+    height:50px;
+    transition: 0.5s;
+}
+.about-main .about-technology svg:hover,.about-main .about-technology svg:hover img:hover{
+    width:60px;
+    height:60px;
+}
+
+.about-main .about-technology .flex #box-tools{
+    width:300px;
+    margin-right: 10px;
+    display: block;
+    margin: 20px auto;
+    gap: 20px;
+    background-color: #5c7c9a;
+    padding:20px;
+    border-radius: 15px;
+}
+.about-main .about-technology .flex #box-tools p{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+.about-main .about-technology .flex .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:40px;
+}
+
+.about-main .about-technology .flex .icons a{
+    position:relative;
+}
+
+.about-main .about-technology .flex .icons a:hover::after{
+    display: block;
+    content:attr(data-title);
+    padding:5px;
+    border: 1px solid #000;
+    position: absolute;
+    top:55px;
+    left: 35px;
+    background: white;
+    color:black;
+    border-radius:5px;
+    text-align: start;
+}
+
+@media screen and (max-width: 850px){
+    .about-main .about-check .about-image img{
+        display: none;
+    }
+    .about-main .about-check .about-description{
+        width: 100%;
+        padding: 20px;
+        height:100%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

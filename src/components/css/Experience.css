@@ -1,0 +1,104 @@
+.experience-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.experience-main > center > h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.experience-main > .sub-experience:not(:last-child){
+    background-color: color-mix(in srgb,#7693ad,#5aa6f2) ; 
+    width:95%;
+    margin:10px auto;
+    padding:20px 20px 40px 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.experience-main > .sub-experience:last-child{
+    background-color: color-mix(in srgb,#7693ad,#5aa6f2) ; 
+    width:95%;
+    margin:30px auto 0px auto;
+    padding:20px 20px 40px 20px;
+    border-radius: 15px;
+}
+
+.experience-main > .sub-experience nav{
+    width:90%;
+    margin-left: 50px;
+    margin-top:30px; 
+}
+.experience-main > .sub-experience h1{
+    margin-left: 20px;
+}
+
+.experience-main > .sub-experience img{
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+    transform: translateY(10%);
+}
+.experience-main > .sub-experience .experience-details >p{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.experience-main > .sub-experience .experience-details p{
+    margin-bottom: 10px;
+}
+
+.experience-main > .sub-experience>nav> ul{
+    list-style-type: none;
+}
+
+.experience-main  .sub-experience .experience-details .age-experience{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.experience-main > .sub-experience .experience-details:not(:last-child){
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.experience-main > .sub-experience .experience-details:last-child{
+    position: relative;
+}
+.experience-details::before{
+    content: '';
+    position: absolute;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    left:-30px;
+    top: 0px;
+    z-index: 99;
+    background-color: #384959;
+}
+
+
+.experience-details::after{
+    content: '';
+    position: absolute;
+    width:5px;
+    height:100%;
+    left:-22px;
+    top:0px;
+    z-index:1;
+    background-color: white;
+}
+
+.experience-main  .sub-experience .experience-details .experience-description{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.experience-main  .sub-experience .experience-details .experience-description ul{
+    list-style-type:disc;
+    line-height: 1.4;
+}
+.experience-main  .sub-experience .experience-details .experience-description li{
+    margin-bottom: 5px;
+}
