@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b9fe590.css",
+    "main.js": "/static/js/main.1c9a9deb.js",
+    "static/media/Nitish_Resume.pdf": "/static/media/Nitish_Resume.6f9c39a586661a86ac6c.pdf",
+    "index.html": "/index.html",
+    "main.7b9fe590.css.map": "/static/css/main.7b9fe590.css.map",
+    "main.1c9a9deb.js.map": "/static/js/main.1c9a9deb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b9fe590.css",
+    "static/js/main.1c9a9deb.js"
+  ]
+}
