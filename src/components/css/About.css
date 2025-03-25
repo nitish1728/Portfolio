@@ -41,12 +41,11 @@
     color: #BDDDFC;
     
 }
-.about-main .about-check .about-description h3{
+.about-main .about-check .about-description h3,.about-main .about-check .about-description span{
     margin-top: 40px;
     font-size: 20px ;
     line-height: 1.8;
 }
-
 
 .about-main .about-technology .flex{
     display: flex;
@@ -104,6 +103,10 @@
     text-align: start;
 }
 
+.mobileview_about{
+    display: none;
+}
+
 @media screen and (max-width: 850px){
     .about-main .about-check .about-image img{
         display: none;
@@ -112,6 +115,24 @@
         width: 100%;
         padding: 20px;
         height:100%
+    }
+    .about-main .about-technology{
+        width:95%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .mobileview_about{
+        display:contents;
+        margin-top: 0px !important;
+    } 
+    .desktop_view_about{
+        display: none;
+    }
+    .mobileview_about button{
+        all:unset;
+        color:#6b95be;
+        cursor: pointer;
     }
 }
 

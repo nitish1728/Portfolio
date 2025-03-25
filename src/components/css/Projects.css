@@ -1,0 +1,78 @@
+.projects-main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;  
+    width:95%;
+    margin:0px auto;
+}
+.sub-projects-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-around;
+}
+.projects-main>center>h1{
+    font-size: 50px;
+    color: #BDDDFC;
+}
+
+.sub-projects{
+    width:45%;
+    padding:20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: color-mix(in srgb,#111f2c 50%,#2a6ba8 50%);
+}
+
+.sub-projects-image{
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+}
+.sub-projects-image img{
+    width:100%;
+    height:300px;
+    border-radius: 10px;
+}
+
+.sub-projects-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #6A89A7;
+}   
+.sub-projects-description .sub-projects-links{
+    display: flex;
+    gap:10px;
+}
+.sub-projects-description .sub-projects-links img{
+    width:30px;
+    height:30px;
+}
+
+.sub-projects-details{
+    padding: 20px 0px;
+}
+
+.sub-projects-details .sub-projects-text p{
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.sub-projects-technologies{
+    display: flex;
+    justify-content: space-around;
+}
+.sub-projects-technologies a svg{
+    width:40px;
+    height:40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 780px){
+    .sub-projects{
+        width:100%;
+    } 
+}

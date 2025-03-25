@@ -98,6 +98,7 @@
     transition: 0.4s;
     background-color: #384959;
     color:white;
+    cursor: pointer;
 }
 
 
@@ -111,10 +112,17 @@
     }
     .description-main .description-text{
         width: 100%;
+        padding-bottom:50px;
+    }
+    .description-main .description-image{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
     }
     .description-main .description-image img{
-        width:400px;
-        height:400px;
+        width:500px;
+        height:500px;
+        padding-bottom:50px;
     }
     .description-main .description-text .description h1,span{
         font-size: 50px;

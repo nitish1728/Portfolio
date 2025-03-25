@@ -1,5 +1,10 @@
 import '../css/About.css'
+import {useState} from 'react'
 export default function About(props){
+    const [readMore,setread]=useState(true)
+    function readchange(){
+        setread(readMore=>!readMore)
+    }
     return(
     <div className="about-main">
         <div className="about-check">
@@ -8,13 +13,18 @@ export default function About(props){
             </div>
             <div className="about-description">
                 <h1>About Me</h1>
-                <h3>Dynamic IT professional with 2 years of combined experience in Application Support and 
-                    React.js development. Proficient in troubleshooting, providing solutions, and collaborating 
-                    closely with development teams to enhance application performance, complemented by 
-                    expertise in developing responsive user interfaces using React.js. Proficient in File handing, 
-                    Scripting, and working with databases to resolve technical issues raised by clients and 
-                    having good expertise in UI designing, Containerizations, Orchestration. 
-                </h3>
+                <div className="scroll-about">
+                    <h3>Dynamic IT professional with 2 years of combined experience in Application Support and 
+                        React.js development. Proficient in troubleshooting, providing solutions, and collaborating 
+                        closely with development teams to enhance application performance, complemented by <span className='desktop_view_about'>expertise in developing responsive user interfaces using React.js.Proficient in File handing, 
+                        Scripting, and working with databases to resolve technical issues raised by clients and 
+                        having good expertise in UI designing, Containerizations, Orchestration.</span>{readMore && <span className='mobileview_about'>...</span>}{!readMore && <span className='mobileview_about'>
+                        expertise in developing responsive user interfaces using React.js.Proficient in File handing, 
+                        Scripting, and working with databases to resolve technical issues raised by clients and 
+                        having good expertise in UI designing, Containerizations, Orchestration.</span>}<span className='mobileview_about'><button onClick={readchange}>{readMore?"Read More":"Read less"}</button></span>
+                    </h3>
+                </div>
+                
             </div>
         </div>  
         <div className="about-technology">

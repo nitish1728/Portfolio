@@ -8,24 +8,31 @@ import './components/css/App.css'
 
 export default function App(){
     const [Headers,setHeaders] = useState(false)
+
     function change(){
         setHeaders(Headers=>!Headers)
     }
+    
     return(
         <>
-        <div className="main"  id='Home'>
-            <Header change={change} menu={Headers} />
-            <Home menu={Headers} image="../images/image.png"/>
-        </div>
-        <div className="About" id='About'>
-            <About image="../images/nitishc.png" dynatrace= "../images/dynatrace.png" />
-        </div>
-        <div className="Experience" id='Experience'>
-            <Experience workimg="../images/work.png" educationimg="../images/education.png"/>
-        </div>
-        <div className="Projects" id='Projects'>
-            <Projects />
-        </div>
+            <div className="main"  id='Home'>
+                <Header change={change} menu={Headers} />
+                <Home menu={Headers} image="../images/image.png"/>
+            </div>
+            <div className="About" id='About'>
+                <About image="../images/nitishc.png" dynatrace= "../images/dynatrace.png" />
+            </div>
+            <div className="Experience" id='Experience'>
+                <Experience workimg="../images/work.png" educationimg="../images/education.png"/>
+            </div>
+            <div className="Projects" id='Projects'>
+                <Projects 
+                    githubimg="../images/github.png" 
+                    linkimg="../images/link.png" 
+                    profimg1="../images/portfolio.png"
+                    profimg2="../images/receipe_generator.png" 
+                />
+            </div>
         </>
     )
 }

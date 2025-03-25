@@ -16,5 +16,10 @@
     min-height: 100vh;
 }
 
+.Projects{
+    background-color: color-mix(in srgb,#111f2c 30%,#384959 70%);
+    color: white;
+    min-height:100vh;
+}
 /* 78b5f3 */
 
