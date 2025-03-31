@@ -29,8 +29,8 @@
       inset:-16px;
       border-radius: 50%;
       border:16px solid #384959;
-      animation: spin 3s infinite linear;
-      -webkit-animation:spin 3s infinite linear;
+      animation: spin 4s linear;
+      -webkit-animation:spin 4s linear;
     }
 
     @keyframes spin {
@@ -41,8 +41,11 @@
         100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
     }
     @-webkit-keyframes spin {
-        0% { -webkit-transform: rotate(0deg); }
-        100% { -webkit-transform: rotate(360deg); }
+        0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+        25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+        50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+        75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+        100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
     }
 
 
@@ -76,7 +79,7 @@
 <script>
     var load;
     function loaderon(){
-        load=setTimeout(showPage,2800);
+        load=setTimeout(showPage,4000);
     }
     function showPage(){
         document.getElementById("loader").style.display="none";

@@ -38,16 +38,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 70vh;
+    min-height: 80vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .description-main .description-text{
     display: flex;
     flex-direction: column;
     width:40%;
-    margin-top: 70px;
     gap:30px;
-    padding-bottom: 20px;
 }
 
 .description-main .description-text .description{
@@ -75,8 +75,7 @@
 .description-main .description-image img{
     width:500px;
     height: 480px;
-    margin-top: 50px;
-    margin-right: 30px;
+    transform: translateY(-05%);
 }
 
 

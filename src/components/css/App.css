@@ -1,7 +1,10 @@
+html {
+    scroll-behavior:smooth;
+}
 .main{
     background-color: #6A89A7;
     color: white;
-    min-height: 110vh;
+    min-height: 100vh;
 }
 .About{
     background-color: #384959;
