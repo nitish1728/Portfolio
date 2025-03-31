@@ -6,33 +6,45 @@
     <title>Portfolio App</title>
 </head>
 <style>
-
-    #loader{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        z-index: 1;
-        width: 120px;
-        height: 120px;
-        margin: -76px 0 0 -76px;
-        border: 16px solid #f3f3f3;
-        border-radius: 50%;
-        border-top: 16px solid #384959;
-        -webkit-animation: spin 2s linear infinite;
-        animation: spin 2s linear infinite;
-    }
     #root{
         display: none;
+    }
+    #loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+      width: 120px;
+      height: 120px;
+      margin: -76px 0 0 -76px;
+      border:16px solid #f3f3f3;
+      border-radius: 50%;
+      transform:rotate(45deg);
+      box-sizing: border-box;
+    }
+    #loader::before {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      inset:-16px;
+      border-radius: 50%;
+      border:16px solid #384959;
+      animation: spin 3s infinite linear;
+      -webkit-animation:spin 3s infinite linear;
+    }
+
+    @keyframes spin {
+        0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+        25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+        50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+        75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+        100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
     }
     @-webkit-keyframes spin {
         0% { -webkit-transform: rotate(0deg); }
         100% { -webkit-transform: rotate(360deg); }
     }
 
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
 
 
     .animate-bottom {
@@ -64,7 +76,7 @@
 <script>
     var load;
     function loaderon(){
-        load=setTimeout(showPage,3000);
+        load=setTimeout(showPage,2800);
     }
     function showPage(){
         document.getElementById("loader").style.display="none";

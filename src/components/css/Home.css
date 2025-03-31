@@ -47,6 +47,7 @@
     width:40%;
     margin-top: 70px;
     gap:30px;
+    padding-bottom: 20px;
 }
 
 .description-main .description-text .description{
@@ -133,5 +134,16 @@
 @media screen and (max-width: 800px){
     .description-main .description-image{
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .description-main{
+        display: block;
+        width: 80%;
+        margin: 110px auto 0px auto;
+    }
+    .main{
+        min-height: 100%;
     }
 }

@@ -102,3 +102,12 @@
 .experience-main  .sub-experience .experience-details .experience-description li{
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 600px){
+    .experience-main > .sub-experience nav{
+        margin-left: 30px;
+    }
+    .experience-main > .sub-experience h1{
+        margin-left: 0px;
+    }
+}

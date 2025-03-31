@@ -136,6 +136,12 @@
     }
 }
 
+@media screen and (max-width: 650px){
+    .about-main .about-technology .flex #box-tools{
+        width:95%;
+    }
+}
+
 
 
 

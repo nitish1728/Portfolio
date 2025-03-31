@@ -28,7 +28,8 @@ export default function App(){
             <div className="Projects" id='Projects'>
                 <Projects 
                     githubimg="../images/github.png" 
-                    linkimg="../images/link.png" 
+                    linkimg="../images/link.png"
+                    forkimg="../images/fork.png" 
                     profimg1="../images/portfolio.png"
                     profimg2="../images/receipe_generator.png" 
                 />
