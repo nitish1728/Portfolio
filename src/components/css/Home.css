@@ -106,13 +106,14 @@
 
 @media screen and (max-width: 1070px) { 
     .description-main{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         width: 80%;
-        margin: 130px auto 0px auto;
+        margin: 10px auto;
     }
     .description-main .description-text{
         width: 100%;
-        padding-bottom:50px;
+        padding-bottom: 60px;
     }
     .description-main .description-image{
         display:flex;
@@ -140,7 +141,7 @@
     .description-main{
         display: block;
         width: 80%;
-        margin: 110px auto 0px auto;
+        margin: 10px auto;
     }
     .main{
         min-height: 100%;
