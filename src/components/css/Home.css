@@ -132,8 +132,8 @@
 }
 
 @media screen and (max-width: 800px){
-    .description-main .description-image{
-        display: none;
+    .description-main .description-image img{
+        width:100%;
     }
 }
 
@@ -145,5 +145,8 @@
     }
     .main{
         min-height: 100%;
+    }
+    .description-main .description-image{
+        display: none;
     }
 }
