@@ -1,7 +1,3 @@
-Here’s a polished, professional README template for your portfolio repository:
-
----
-
 # Nitish’s Portfolio 🌟
 
 **Live Demo:** [portfolio-tau-gold-33.vercel.app](https://portfolio-tau-gold-33.vercel.app/)
@@ -103,6 +99,11 @@ Feel free to connect with me:
 
 ---
 
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
 ## ✅ Contributing
 
 Feel free to fork the project and submit PRs to enhance:
@@ -119,14 +120,5 @@ Thanks to the creators of React, Material‑UI, Framer Motion/AOS, Formspree/Ema
 
 ---
 
-### Final Notes
-
-* Update the **Tech Stack** section to accurately reflect your dependencies.
-* If you incorporated more features (like blogs, theme switches), add them under **Features**.
-* Replace placeholder contact info with your actual links.
-
-Let me know if you'd like help customizing this further!
-
-[1]: https://github.com/nitish-niraj/portfolio.github.io?utm_source=chatgpt.com "GitHub - nitish-niraj/portfolio.github.io: My portfolio website ..."
-[2]: https://github.com/nitish1294/Portfolio?utm_source=chatgpt.com "GitHub - nitish1294/Portfolio: New Portfolio Website"
+Thank you for checking out my portfolio website! Happy browsing! 🚀
 
