@@ -93,28 +93,13 @@ vercel --prod
 
 ---
 
-## ✨ Inspiration & References
-
-This README structure is inspired by well-documented open-source portfolios, such as:
-
-* “My portfolio website showcases my projects, skills, experience...” layouts ([github.com][1], [github.com][2])
-* Use of animation libraries & form integration for richer UX&#x20;
-
----
-
 ## 📧 Contact
 
 Feel free to connect with me:
 
-* **Email**: \[[your-email@example.com](mailto:your-email@example.com)]
-* **LinkedIn**: \[Your LinkedIn Profile]
+* **Email**: \[[your-email@example.com](mailto:baratamnitishkumar44@gmail.com)]
+* **LinkedIn**: \[https://www.linkedin.com/in/nitish-kumar-baratam-a5387a21a/]
 * **GitHub**: [github.com/nitish1728](https://github.com/nitish1728)
-
----
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
 
 ---
 
