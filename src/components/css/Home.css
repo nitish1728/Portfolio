@@ -46,7 +46,7 @@
 .description-main .description-text{
     display: flex;
     flex-direction: column;
-    width:40%;
+    width:565px;
     gap:30px;
 }
 
@@ -63,8 +63,18 @@
 }
 .description-main .description-text .description span{
     color: #BDDDFC;
+    position: relative;
+    width:fit-content
 }
-
+/* .description-main .description-text .description span::before{
+    content: '';
+    position: absolute;
+    top:12px;
+    right: -15px;
+    width: 7px;
+    height:50px;
+    background-color: #BDDDFC;
+} */
 .description-main .description-text .description h3{
     margin-top: 20px;
     font-size: 23px;
@@ -128,6 +138,10 @@
     .description-main .description-text .description h1,span{
         font-size: 50px;
         font-weight: bold; 
+    }
+    .description-main .description-text .description span::before{
+        top:12px;
+        height:37px;
     }
 }
 

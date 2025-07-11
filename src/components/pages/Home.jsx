@@ -1,6 +1,31 @@
 import './../css/Home.css';
 import Resume from '../../Nitish_Resume.pdf'
 export default function Home(props){
+    
+    // const dynamicText=document.querySelector('.typing');
+
+    // const words=["Front End Developer","Full Stack Developer"]
+    // let wordIndex=0;
+    // let charIndex=3;
+    // let isDeleting=false;
+    
+
+    // const typeEffect= () =>{
+    //     const currentWord=words[wordIndex];
+    //     const currentChar=currentWord.substring(0,charIndex)
+    //     dynamicText.textContent=currentChar
+    //     console.log(currentChar)
+
+    //     if(isDeleting && charIndex<currentWord.length){
+    //         charIndex++;
+    //         setTimeout(typeEffect,200);
+    //     }
+    //     else{
+    //         charIndex--;
+    //         setTimeout(typeEffect,200);
+    //     }
+    // }
+    
     return(
         <>
             <div className={props.menu?"nav-block on":"nav-block"}>
@@ -14,7 +39,7 @@ export default function Home(props){
                 <div className="description-text">
                     <div className="description">
                         <h1>Hi, I am Nitish</h1>
-                        <span>Front End Developer</span>
+                        <span className='typing'>Front End Developer</span>
                         <h3>I am a Front-End Developer. I am currently working at BNP Paribas as a Front-End Developer</h3>
                     </div>
                     <div className="description-icons">
